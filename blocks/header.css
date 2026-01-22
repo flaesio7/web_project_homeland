@@ -1,0 +1,34 @@
+.header__logo {
+  max-width: 254px;
+  max-height: 70px;
+  margin: 0 auto;
+}
+
+
+.header {
+  margin: 0 auto;
+  padding-top: 34px;
+  width: fit-content;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1280px) { 
+
+  .header {
+    padding-top: 34px;
+  } }
+
+
+
+  @media screen and (max-width: 544px) {  
+    .header {
+    padding-top: 20px;
+  }
+
+  .header__logo {
+    width: 188px;
+    height: 52px;
+    
+  }
+  }
+    
