@@ -14,5 +14,4 @@ html5,css3,Flexbox,Media queries.
 Funcionalidades:
 Projeto visado para tamanho máximo em 1280px (desktop),768px(Tablet) tamanho mínimo em 320px(mobile) designado para alguns tamanhos de telas específicos seguindo a metodologia BEM.
 
-Autor 
-Flaésio
+
