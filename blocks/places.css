@@ -87,3 +87,101 @@
     max-width: 356.08px;
     box-shadow: 5px 5px 10px 0px #00000040;
 }
+
+@media screen and (max-width : 768px) {
+
+    .place {
+        display: grid;
+        grid-template-columns: 340px 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: "title artists" "image paragraph" "nft paragraph";
+        padding-left: 24px;
+        padding-right: 24px;
+        gap: 48px 28px;
+        font-family: "Inter", Arial, sans-serif;
+   
+    }
+
+    .place__title {
+        align-self: end;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .place__image {
+        height: 340;
+        opacity: 1;
+        left: 24px;
+
+    }
+
+    .place__url-heading {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 12%;
+        text-transform: uppercase;
+        color: #AAAAAA;
+
+    }
+
+    .place__artist {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+
+    }
+
+    .place__artist-name {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        width: 352px;
+        gap: 1px;
+    }
+
+    .place__paragraphs {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        letter-spacing: 0%;
+
+    }
+
+    .place__paragraph {
+        margin-top: 0;
+
+    }
+
+    .place__link {
+        grid-area: nft;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        height: 22px;
+        left: 24px;
+        color: #FFFFFF;
+        background: linear-gradient(90deg, #0278FE 0.56%, #003A7B 100%);
+        box-shadow: 5px 5px 10px 0px #00000040;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        padding-left: 20px;
+        gap: 10px;
+        border-radius: 4px;
+        font-weight: normal;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
