@@ -1,6 +1,5 @@
 .lead {
   /*definir a aparencia do titulo principal da pagina*/
-
   margin: 90px auto 92px;
 }
 
@@ -26,24 +25,28 @@
   line-height: 36px;
   letter-spacing: 0%;
   text-align: center;
+  font-family: Inter;
+  color: #FFFFFF;
+  height: 72px;
+  padding-left: 280px;
+  padding-right: 280px;
 }
 
 /*definir a aparencia do subtitulo da pagina*/
 
 .lead__image {
-  /*definir a largura da imagem como 100% do elemento pai*/
-  width: 984;
-  height: 615;
+  /*definir a largura da imagem como 100% do elemento pai - AJUSTADO 1280px */
+  width: 984px;
+  height: 615px;
   opacity: 1;
   top: 562px;
   left: 148px;
- padding-left: 148px;
- padding-right: 148px;
-
+  padding-left: 148px;
+  padding-right: 148px;
 }
 
 /*Responsividade para diferentes tamanhos de tela*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {/*TELAS min768px*/
   .lead {
     margin: 0 auto;
   }
@@ -57,22 +60,15 @@
     margin-top: 90px;
   }
 
-  .lead__subtitle {
-    /*max-width: 720px;
+  .lead__subtitle { /*REVISADO 768px*/
+    font-family: Inter;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 25px; */
-
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: center;
-
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .lead__image {
@@ -80,19 +76,18 @@
     height: 480;
     opacity: 1;
     mix-blend-mode: Matiz;
-
     color: #2a2c2f;
     margin: 0 auto;
     background-color: cover;
     justify-content: center;
     background: linear-gradient(0deg, #000000, #000000),
-      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 0;
   }
 }
 
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 544px) {/*TELAS min320px*/
   .lead__title {
     max-width: 228px;
     margin-top: 50px;
@@ -110,10 +105,10 @@
     line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
-    letter-spacing: 0%;
+
     margin-top: 16px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .lead__image {
@@ -122,6 +117,7 @@
     height: 200;
     opacity: 1;
     top: 306px;
+    padding: 0;
 
   }
 }
