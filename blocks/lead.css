@@ -37,7 +37,6 @@
 .lead__image {
   /*definir a largura da imagem como 100% do elemento pai - AJUSTADO 1280px */
   width: 984px;
-  height: 615px;
   opacity: 1;
   top: 562px;
   left: 148px;
@@ -114,7 +113,6 @@
   .lead__image {
     /*definir a largura da imagem como 100% do elemento pai*/
     width: 320px;
-    height: 200;
     opacity: 1;
     top: 306px;
     padding: 0;
