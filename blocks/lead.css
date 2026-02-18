@@ -1,35 +1,55 @@
 .lead {
+  /*definir a aparencia do titulo principal da pagina*/
   max-width: 984px;
+  margin: 90px auto 92px;
+}
+
+/*definir a largura maxima e a margem do elemento lead*/
+
+.lead__title {
+  /*definir a aparencia do titulo da pagina*/
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 720px;
   margin: 0 auto;
 }
 
-.lead__title{
-font-family: "Inter", Arial, sans-serif;
-font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-letter-spacing: 0%;
-text-align: center;} 
 
-.lead__subtitle{
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;} 
+.lead__subtitle {
+  /*definir a aparencia do subtitulo da pagina*/
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-@media screen and (max-width: 1280px) {
-  .lead {
-    max-width: 768px;
-    margin: 0 auto;} 
+/*definir a aparencia do subtitulo da pagina*/
 
 .lead__image {
-    width: 100%;
-    color: #2a2c2f;
+  /*definir a largura da imagem como 100% do elemento pai*/
+  width: 320;
+  height: 200;
+  angle: 0 deg;
+  opacity: 1;
+  top: 306px;
+
+}
+
+/*Responsividade para diferentes tamanhos de tela*/
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 530px;
     margin: 0 auto;
-    background-color: cover;
-    justify-content: center;
   }
+
+
+
 
   .lead__title {
     font-weight: 900;
@@ -41,19 +61,39 @@ text-align: center;}
   }
 
   .lead__subtitle {
-    max-width: 720px;
+    /*max-width: 720px;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 25px;}
+    margin-top: 25px; */
+
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
   }
 
+  .lead__image {
+    width: 984px;
+    color: #2a2c2f;
+    margin: 0 auto;
+    background-color: cover;
+    justify-content: center;
+    background: linear-gradient(0deg, #000000, #000000),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 
-  @media screen and (max-width: 544px) {
+  }
+}
+
+
+@media screen and (max-width: 544px) {
   .lead__title {
-    max-width: 720px;
+    max-width: 228px;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
@@ -74,5 +114,6 @@ text-align: center;}
     letter-spacing: 0%;
     margin-top: 16px;
     padding-left: 30px;
-    padding-right: 30px;}
+    padding-right: 30px;
+  }
 }

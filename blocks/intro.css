@@ -1,27 +1,30 @@
-.intro {
+.intro {/*definir a largura maxima, margem e fonte do elemento intro*/
+  font-family: "Inter";
   max-width: 984px;
   margin: 0 auto;
 }
 
-.intro__title {
+.intro__title {/*definir a aparencia do titulo da introducao*/
+  font-family: Inter;
   font-weight: 900;
   max-width: 830px;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   letter-spacing: 0%;
-  margin-top: 92px;
+
+
 }
 
-.intro__text {
-  max-width: 738px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: 0%;
+.intro__subtitle{/*definir a aparencia do subtitulo da introducao*/
+max-width: 738px; 
+font-family: "Inter";
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0%;
 }
-
-.intro__text-autor {
+.intro__text-autor {/*definir a aparencia do autor da introducao*/
   font-size: 24px;
   max-width: 732px;
   text-align: right;
@@ -29,6 +32,15 @@
   line-height: 34px;
   letter-spacing: 0%;
   margin-top: 10px;
+  text-align: right;
+}
+
+.intro__text {/*definir a aparencia do texto da introducao*/
+  max-width: 738px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0%;
 }
 
 .intro__text-small {
@@ -40,18 +52,18 @@
   margin-top: 32px;
 }
 
+/*Responsividade para diferentes tamanhos de tela*/
 @media screen and (max-width: 1280px) {
   .intro__title {
-    max-width: 707px;
+
     font-weight: 900;
-    font-size: 45px;
-    line-height: 49px;
+    font-size: 54px;
+    line-height: 58px;
     letter-spacing: 0%;
-    margin-top: 90px;
-    margin-left: 24px;
-    margin-right: 37px;
+    margin-top: 92px;
   }
 
+  
   .intro__text {
     max-width: 720px;
     font-weight: 400;
@@ -127,3 +139,25 @@
     margin-right: 16px;
   }
 }
+
+/*Responsividade para diferentes tamanhos de tela*/ 
+/* 
+@media screen and (max-width:1024px) {
+    .intro__title {
+        font-size: 45px;
+        line-height: 49px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .intro {
+        padding: 0 24px;
+
+    }
+}
+    */

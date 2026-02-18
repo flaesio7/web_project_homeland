@@ -20,6 +20,7 @@
     text-align: left;
     margin: 0;
 }
+/*definir a aparencia do titulo principal da pagina*/
 
 .place__image {
     width: 100%;
@@ -211,7 +212,6 @@
 
 
     }
-
 
     .place__paragraphs {
         font-weight: 400;

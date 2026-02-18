@@ -1,26 +1,40 @@
 .photo-grid {
-margin: 0 auto;
-
+    display: grid;
+    /* transforma o conteiner numa grade com colunas e linhas */
+    margin: 0 auto;
+    padding-left: 48px;
+    padding-right: 48px;
+    gap: 16px;
 }
 
-.photo-grid__list{
+/*Responsividade para diferentes tamanhos de tela*/
+.photo-grid__list {
     display: grid;
     list-style-type: none;
-    grid-template-columns: repeat(auto-fit, minmax(284px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+     /*para definir o número e o tamanho das colunas numa estrutura de grade (grid).*/
     grid-template-rows: auto auto 1fr;
-    gap: 12px;
+    gap: 16px;
+      /*criar espaçamento entre os elementos de um contêiner flex ou grid, tanto nas linhas quanto nas colunas*/
+    padding: 0;
+     /* espaçamento interno de um elemento  que define a distância entre o conteúdo e a borda do elemento.*/
+    width: 100%;
+
+}
+
+.photo-grid__item {
+    width: 100%;
 }
 
 
-@media screen and (max-width: 1280px) {
-
-}
+@media screen and (max-width: 1280px) {}
 
 
-@media screen and (max-width: 544px)  {
+@media screen and (max-width: 544px) {
 
-.photo-grid {
-margin: 0 auto;
-
-}
+    .photo-grid {
+        margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
