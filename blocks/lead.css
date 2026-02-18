@@ -1,6 +1,6 @@
 .lead {
   /*definir a aparencia do titulo principal da pagina*/
-  max-width: 984px;
+
   margin: 90px auto 92px;
 }
 
@@ -19,7 +19,6 @@
   margin: 0 auto;
 }
 
-
 .lead__subtitle {
   /*definir a aparencia do subtitulo da pagina*/
   font-weight: 400;
@@ -33,23 +32,21 @@
 
 .lead__image {
   /*definir a largura da imagem como 100% do elemento pai*/
-  width: 320;
-  height: 200;
-  angle: 0 deg;
+  width: 984;
+  height: 615;
   opacity: 1;
-  top: 306px;
+  top: 562px;
+  left: 148px;
+ padding-left: 148px;
+ padding-right: 148px;
 
 }
 
 /*Responsividade para diferentes tamanhos de tela*/
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 530px;
     margin: 0 auto;
   }
-
-
-
 
   .lead__title {
     font-weight: 900;
@@ -79,7 +76,11 @@
   }
 
   .lead__image {
-    width: 984px;
+    max-width: 768px;
+    height: 480;
+    opacity: 1;
+    mix-blend-mode: Matiz;
+
     color: #2a2c2f;
     margin: 0 auto;
     background-color: cover;
@@ -94,8 +95,6 @@
 @media screen and (max-width: 544px) {
   .lead__title {
     max-width: 228px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: 50px;
     font-weight: 900;
     font-size: 40px;
@@ -115,5 +114,14 @@
     margin-top: 16px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .lead__image {
+    /*definir a largura da imagem como 100% do elemento pai*/
+    width: 320px;
+    height: 200;
+    opacity: 1;
+    top: 306px;
+
   }
 }
