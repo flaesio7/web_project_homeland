@@ -182,7 +182,9 @@
 }
 
 @media screen and (max-width : 544px) {
-
+    .places {
+        margin-top: 0;
+    }
 
     .place {
         display: grid;
@@ -197,6 +199,7 @@
         font-family: "Inter", Arial, sans-serif;
         padding: 0;
         margin-top: 62px;
+        gap: 30px;
     }
 
     .place__title {
@@ -206,7 +209,7 @@
         letter-spacing: 0%;
         padding-left: 16px;
         padding-right: 16px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .place__url-heading {
@@ -218,7 +221,7 @@
         padding-left: 16px;
         padding-right: 16px;
         color: #AAAAAA;
-        margin-top: 30px;
+        margin-top: 0px;
 
     }
 
@@ -248,11 +251,10 @@
         font-size: 16px;
         line-height: 163%;
         letter-spacing: 0%;
-        margin-top: 30px;
         padding-left: 16px;
         padding-right: 16px;
         gap: 25px;
-        
+
     }
 
     .place__paragraph {
@@ -260,11 +262,9 @@
         font-size: 16px;
         line-height: 163%;
         letter-spacing: 0%;
-        margin-top: 30px;
-        padding-left: 16px;
-        padding-right: 16px;
+        margin-top: 0px;
         gap: 25px;
-    
+
 
     }
 
@@ -275,7 +275,7 @@
         line-height: 100%;
         letter-spacing: 0%;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 16px;
         margin-right: 16px;
 
