@@ -7,7 +7,7 @@
 
 .intro__title {
   /*definir a aparencia do titulo da introducao*/
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 900;
   max-width: 830px;
   font-weight: 900;
@@ -63,7 +63,7 @@
 
   /*TELAS min768px VALIDADO*/
   .intro__title {
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 900;
     font-size: 45px;
     line-height: 49px;

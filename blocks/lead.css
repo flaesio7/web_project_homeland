@@ -26,7 +26,7 @@
   line-height: 36px;
   letter-spacing: 0%;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   color: #FFFFFF;
   height: 72px;
   padding-left: 280px;
@@ -67,7 +67,7 @@
 
   .lead__subtitle {
     /*REVISADO 768px*/
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
