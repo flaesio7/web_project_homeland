@@ -16,6 +16,7 @@
   color: #FFFFFF;
   max-width: 720px;
   margin: 0 auto;
+  margin-top: 90px;
 }
 
 .lead__subtitle {
@@ -30,6 +31,7 @@
   height: 72px;
   padding-left: 280px;
   padding-right: 280px;
+  margin-top: 32px;
 }
 
 /*definir a aparencia do subtitulo da pagina*/
@@ -45,7 +47,9 @@
 }
 
 /*Responsividade para diferentes tamanhos de tela*/
-@media screen and (max-width: 1024px) {/*TELAS min768px*/
+@media screen and (max-width: 1024px) {
+
+  /*TELAS min768px*/
   .lead {
     margin: 0 auto;
   }
@@ -57,9 +61,12 @@
     letter-spacing: 0%;
     text-align: center;
     margin-top: 90px;
+    padding-right: 119px;
+    padding-left: 119px;
   }
 
-  .lead__subtitle { /*REVISADO 768px*/
+  .lead__subtitle {
+    /*REVISADO 768px*/
     font-family: Inter;
     font-weight: 400;
     font-size: 30px;
@@ -80,21 +87,24 @@
     background-color: cover;
     justify-content: center;
     background: linear-gradient(0deg, #000000, #000000),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 0;
   }
 }
 
 
-@media screen and (max-width: 544px) {/*TELAS min320px*/
+@media screen and (max-width: 544px) {
+
+  /*TELAS min320px*/
   .lead__title {
-    max-width: 228px;
-    margin-top: 50px;
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 50px;
+    padding-left: 46px;
+    padding-right: 46px;
   }
 
   .lead__subtitle {
@@ -116,6 +126,8 @@
     opacity: 1;
     top: 306px;
     padding: 0;
+    margin-top: 40px;
+    color:#000000;
 
   }
 }

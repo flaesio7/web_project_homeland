@@ -1,12 +1,14 @@
-.header {/*definir a aparencia do cabeçalho da pagina*/
+.header {
+  /*definir a aparencia do cabeçalho da pagina*/
   margin: 0 auto;
   display: flex;
   justify-content: center;
   padding-top: 34px;
-  
+
 }
 
-.header__logo {/*definir o tamanho do logo no cabeçalho*/
+.header__logo {
+  /*definir o tamanho do logo no cabeçalho*/
   width: 254px;
   height: 70px;
   margin: 0 auto;
@@ -31,5 +33,14 @@
 @media screen and (max-width: 544px) {
   .header {
     padding-top: 20px;
+  }
+
+  .header__logo {
+    height: 52px;
+    opacity: 1;
+    margin-top: 20px;
+    padding-left: 66px;
+    padding-right: 66px;
+
   }
 }
