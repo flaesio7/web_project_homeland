@@ -1,19 +1,24 @@
 .lead {
   /*definir a aparencia do titulo principal da pagina*/
   margin: 90px auto 92px;
+  font-family: "Inter", Arial, sans-serif;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*definir a largura maxima e a margem do elemento lead*/
 
 .lead__title {
   /*definir a aparencia do titulo da pagina*/
-  font-family: "Inter", Arial, sans-serif;
+  
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   letter-spacing: 0%;
   text-align: center;
-  color: #FFFFFF;
   max-width: 720px;
   margin: 0 auto;
   margin-top: 90px;
@@ -26,11 +31,7 @@
   line-height: 36px;
   letter-spacing: 0%;
   text-align: center;
-  font-family: "Inter";
-  color: #FFFFFF;
   height: 72px;
-  padding-left: 280px;
-  padding-right: 280px;
   margin-top: 32px;
 }
 
@@ -40,10 +41,6 @@
   /*definir a largura da imagem como 100% do elemento pai - AJUSTADO 1280px */
   width: 984px;
   opacity: 1;
-  top: 562px;
-  left: 148px;
-  padding-left: 148px;
-  padding-right: 148px;
 }
 
 /*Responsividade para diferentes tamanhos de tela*/
@@ -55,26 +52,14 @@
   }
 
   .lead__title {
-    font-weight: 900;
     font-size: 75px;
     line-height: 79px;
     letter-spacing: 0%;
-    text-align: center;
-    margin-top: 90px;
-    padding-right: 119px;
-    padding-left: 119px;
   }
 
   .lead__subtitle {
     /*REVISADO 768px*/
-    font-family: "Inter";
-    font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: center;
-    padding-left: 24px;
-    padding-right: 24px;
   }
 
   .lead__image {
