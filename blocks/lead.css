@@ -64,15 +64,12 @@
 
   .lead__image {
     max-width: 768px;
-    height: 480;
+    height: 480px;
     opacity: 1;
     mix-blend-mode: Matiz;
     color: #2a2c2f;
     margin: 0 auto;
-    background-color: cover;
     justify-content: center;
-    background: linear-gradient(0deg, #000000, #000000),
-      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 0;
   }
 }
